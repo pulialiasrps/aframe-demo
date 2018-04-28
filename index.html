@@ -4,20 +4,13 @@
     <title>Hello, WebVR! - A-Frame</title>
     <meta name="description" content="Hello, WebVR! - A-Frame">
     <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
-    <script>
-      var assets = require("./assets");
-      var express = require("express");
-
-      var app = express();
-      app.use("/assets", assets);
-    </script>
 <!--     <script src="outline-component.js"></script> -->
   </head>
   <body>
     
     <a-scene>
       <a-assets>
-          <a-asset-item id="juiceBox" response-type="arraybuffer" src="/assets/juice-box.gltf"></a-asset-item>
+          <a-asset-item id="juiceBox" response-type="arraybuffer" src="https://cdn.glitch.com/bd41071b-4048-4443-bf66-6974dae84252%2Fjuice-box.gltf"></a-asset-item>
       </a-assets>
 
       <a-entity gltf-model="#juiceBox"></a-entity>
