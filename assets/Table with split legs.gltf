@@ -1,0 +1,181 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0, 
+            "componentType" : 5123, 
+            "count" : 18396, 
+            "max" : [
+                16868
+            ], 
+            "min" : [
+                0
+            ], 
+            "type" : "SCALAR"
+        }, 
+        {
+            "bufferView" : 1, 
+            "componentType" : 5126, 
+            "count" : 16869, 
+            "max" : [
+                33.69931411743164, 
+                60.48434829711914, 
+                45.00818634033203
+            ], 
+            "min" : [
+                -34.37681198120117, 
+                -60.687652587890625, 
+                -3.129511833190918
+            ], 
+            "type" : "VEC3"
+        }, 
+        {
+            "bufferView" : 2, 
+            "componentType" : 5126, 
+            "count" : 16869, 
+            "max" : [
+                1.0, 
+                1.0, 
+                1.0
+            ], 
+            "min" : [
+                -1.0, 
+                -1.0, 
+                -1.0
+            ], 
+            "type" : "VEC3"
+        }, 
+        {
+            "bufferView" : 3, 
+            "componentType" : 5126, 
+            "count" : 16869, 
+            "max" : [
+                1.0, 
+                1.0, 
+                0.9968464374542236, 
+                1.0
+            ], 
+            "min" : [
+                -1.0, 
+                -1.0, 
+                -0.9997434020042419, 
+                -1.0
+            ], 
+            "type" : "VEC4"
+        }, 
+        {
+            "bufferView" : 4, 
+            "componentType" : 5126, 
+            "count" : 16869, 
+            "max" : [
+                134.14010620117188, 
+                2.6093666553497314
+            ], 
+            "min" : [
+                -58.76060104370117, 
+                -133.14010620117188
+            ], 
+            "type" : "VEC2"
+        }
+    ], 
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter", 
+        "version" : "2.0"
+    }, 
+    "bufferViews" : [
+        {
+            "buffer" : 0, 
+            "byteLength" : 36792, 
+            "byteOffset" : 0, 
+            "target" : 34963
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 202428, 
+            "byteOffset" : 36792, 
+            "target" : 34962
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 202428, 
+            "byteOffset" : 239220, 
+            "target" : 34962
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 269904, 
+            "byteOffset" : 441648, 
+            "target" : 34962
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 134952, 
+            "byteOffset" : 711552, 
+            "target" : 34962
+        }
+    ], 
+    "buffers" : [
+        {
+            "byteLength" : 846504, 
+            "uri" : "Table with split legs.bin"
+        }
+    ], 
+    "materials" : [
+        {
+            "doubleSided" : true, 
+            "name" : "wire_088144225", 
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.4462512135505676, 
+                    0.34017735719680786, 
+                    0.09651463478803635, 
+                    1.0
+                ], 
+                "metallicFactor" : 0.2763636112213135, 
+                "roughnessFactor" : 0.5454545021057129
+            }
+        }
+    ], 
+    "meshes" : [
+        {
+            "name" : "Box001", 
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2, 
+                        "POSITION" : 1, 
+                        "TANGENT" : 3, 
+                        "TEXCOORD_0" : 4
+                    }, 
+                    "indices" : 0, 
+                    "material" : 0
+                }
+            ]
+        }
+    ], 
+    "nodes" : [
+        {
+            "mesh" : 0, 
+            "name" : "Box001", 
+            "rotation" : [
+                0.7071068286895752, 
+                0.0, 
+                -0.0, 
+                0.7071067094802856
+            ], 
+            "scale" : [
+                0.05063910037279129, 
+                0.05063910037279129, 
+                0.05063910037279129
+            ]
+        }
+    ], 
+    "scene" : 0, 
+    "scenes" : [
+        {
+            "name" : "Scene", 
+            "nodes" : [
+                0
+            ]
+        }
+    ]
+}

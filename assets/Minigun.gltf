@@ -1,0 +1,259 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0, 
+            "componentType" : 5123, 
+            "count" : 840, 
+            "max" : [
+                559
+            ], 
+            "min" : [
+                0
+            ], 
+            "type" : "SCALAR"
+        }, 
+        {
+            "bufferView" : 1, 
+            "componentType" : 5126, 
+            "count" : 560, 
+            "max" : [
+                46.22764587402344, 
+                162.2356719970703, 
+                -168.0792236328125
+            ], 
+            "min" : [
+                -45.68235397338867, 
+                53.848876953125, 
+                -303.9537048339844
+            ], 
+            "type" : "VEC3"
+        }, 
+        {
+            "bufferView" : 2, 
+            "componentType" : 5126, 
+            "count" : 560, 
+            "max" : [
+                0.9760972857475281, 
+                0.9860404133796692, 
+                1.0
+            ], 
+            "min" : [
+                -0.9759003520011902, 
+                -0.9860626459121704, 
+                -1.0
+            ], 
+            "type" : "VEC3"
+        }, 
+        {
+            "bufferView" : 3, 
+            "componentType" : 5126, 
+            "count" : 560, 
+            "max" : [
+                1.0, 
+                1.0
+            ], 
+            "min" : [
+                0.0, 
+                0.0
+            ], 
+            "type" : "VEC2"
+        }, 
+        {
+            "bufferView" : 4, 
+            "componentType" : 5123, 
+            "count" : 21432, 
+            "max" : [
+                13248
+            ], 
+            "min" : [
+                0
+            ], 
+            "type" : "SCALAR"
+        }, 
+        {
+            "bufferView" : 5, 
+            "componentType" : 5126, 
+            "count" : 13249, 
+            "max" : [
+                143.13824462890625, 
+                566.0155029296875, 
+                171.71240234375
+            ], 
+            "min" : [
+                -142.56710815429688, 
+                -1145.9251708984375, 
+                -299.5577697753906
+            ], 
+            "type" : "VEC3"
+        }, 
+        {
+            "bufferView" : 6, 
+            "componentType" : 5126, 
+            "count" : 13249, 
+            "max" : [
+                1.0, 
+                1.0, 
+                1.0
+            ], 
+            "min" : [
+                -1.0, 
+                -1.0, 
+                -1.0
+            ], 
+            "type" : "VEC3"
+        }, 
+        {
+            "bufferView" : 7, 
+            "componentType" : 5126, 
+            "count" : 13249, 
+            "max" : [
+                1.0, 
+                1.0
+            ], 
+            "min" : [
+                0.0, 
+                0.0
+            ], 
+            "type" : "VEC2"
+        }
+    ], 
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter", 
+        "version" : "2.0"
+    }, 
+    "bufferViews" : [
+        {
+            "buffer" : 0, 
+            "byteLength" : 1680, 
+            "byteOffset" : 0, 
+            "target" : 34963
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 6720, 
+            "byteOffset" : 1680, 
+            "target" : 34962
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 6720, 
+            "byteOffset" : 8400, 
+            "target" : 34962
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 4480, 
+            "byteOffset" : 15120, 
+            "target" : 34962
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 42864, 
+            "byteOffset" : 19600, 
+            "target" : 34963
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 158988, 
+            "byteOffset" : 62464, 
+            "target" : 34962
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 158988, 
+            "byteOffset" : 221452, 
+            "target" : 34962
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 105992, 
+            "byteOffset" : 380440, 
+            "target" : 34962
+        }
+    ], 
+    "buffers" : [
+        {
+            "byteLength" : 486432, 
+            "uri" : "Minigun.bin"
+        }
+    ], 
+    "materials" : [
+        {
+            "doubleSided" : true, 
+            "name" : "Metal_-_Iron_Cast", 
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.08132101595401764, 
+                    0.08132101595401764, 
+                    0.08132101595401764, 
+                    1.0
+                ], 
+                "metallicFactor" : 0.418181836605072, 
+                "roughnessFactor" : 0.5600000023841858
+            }
+        }, 
+        {
+            "name" : "Synthetic_-_Silicone_Grip_Waves_Black", 
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.6400000190734865, 
+                    0.6400000190734865, 
+                    0.6400000190734865, 
+                    1.0
+                ], 
+                "metallicFactor" : 0.0
+            }
+        }
+    ], 
+    "meshes" : [
+        {
+            "name" : "Mini_Gun Butt", 
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2, 
+                        "POSITION" : 1, 
+                        "TEXCOORD_0" : 3
+                    }, 
+                    "indices" : 0, 
+                    "material" : 1
+                }, 
+                {
+                    "attributes" : {
+                        "NORMAL" : 6, 
+                        "POSITION" : 5, 
+                        "TEXCOORD_0" : 7
+                    }, 
+                    "indices" : 4, 
+                    "material" : 0
+                }
+            ]
+        }
+    ], 
+    "nodes" : [
+        {
+            "mesh" : 0, 
+            "name" : "Mini_Gun Butt", 
+            "rotation" : [
+                0.7071068286895752, 
+                0.0, 
+                -0.0, 
+                0.7071067094802856
+            ], 
+            "scale" : [
+                0.00454789400100708, 
+                0.00454789400100708, 
+                0.00454789400100708
+            ]
+        }
+    ], 
+    "scene" : 0, 
+    "scenes" : [
+        {
+            "name" : "Scene", 
+            "nodes" : [
+                0
+            ]
+        }
+    ]
+}
