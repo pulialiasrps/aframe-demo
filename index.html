@@ -4,10 +4,15 @@
     <title>Hello, WebVR! - A-Frame</title>
     <meta name="description" content="Hello, WebVR! - A-Frame">
     <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
-    <script src="foo-component.js"></script>
+    <script src="outline-component.js"></script>
   </head>
   <body>
     <a-scene>
+      <a-assets>
+          <a-asset-item id="juiceBox" response-type="arraybuffer" src="JUICE%20BOX.gltf"></a-asset-item>
+      </a-assets>
+
+      <a-entity gltf-model="#juiceBox"></a-entity>
       <a-entity outline></a-entity>
 <!--       <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9" shadow></a-box>
       <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E" shadow></a-sphere>
