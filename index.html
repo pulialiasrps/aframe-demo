@@ -1,33 +1,26 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Hello, WebVR! - A-Frame</title>
-    <meta name="description" content="Hello, WebVR! - A-Frame">
-    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
-<!--     <script src="outline-component.js"></script> -->
-  </head>
-  <body>
-    
-    <a-scene>
-      <a-assets>
-          <a-asset-item id="forestTree" response-type="arraybuffer" src="/assets/Forest%20Tree.gltf"></a-asset-item>
-          <a-asset-item id="apple" response-type="arraybuffer" src="/assets/Red%20Apple.gltf"></a-asset-item>
-          <a-asset-item id="juiceBox" response-type="arraybuffer" src="/assets/JUICE%20BOX.gltf"></a-asset-item>
-          <a-asset-item id="minigun" response-type="arraybuffer" src="/assets/Minigun.gltf"></a-asset-item>
-          <a-asset-item id="table" response-type="arraybuffer" src="/assets/Table%20with%20split%20legs.gltf"></a-asset-item>
-      </a-assets>
+<html xmlns="http://www.w3.org/1999/xhtml">
 
-      <a-entity gltf-model="#juiceBox"></a-entity>
-      <a-entity gltf-model="#apple"></a-entity>
-      <a-entity gltf-model="#minigun"></a-entity>
-      <a-entity gltf-model="#table"></a-entity>
-      <a-entity gltf-model="#forestTree"></a-entity>
-      <!-- <a-entity outline></a-entity>
-      <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9" shadow></a-box>
-      <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E" shadow></a-sphere>
-      <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D" shadow></a-cylinder>
-      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4" shadow></a-plane>
-      <a-sky color="#ECECEC"></a-sky> -->
+<head>
+    <title>Hello, WebVR! - A-Frame</title>
+    <meta name="description" content="Hello, WebVR! - A-Frame" />
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+    <!-- <script src="outline-component.js"></script> -->
+</head>
+
+    <a-scene>
+        <a-assets>
+            <a-asset-item id="forestTree" response-type="arraybuffer" src="/assets/Forest%20Tree.gltf"></a-asset-item>
+            <a-asset-item id="apple" response-type="arraybuffer" src="/assets/Red%20Apple.gltf"></a-asset-item>
+            <a-asset-item id="juiceBox" response-type="arraybuffer" src="/assets/JUICE%20BOX.gltf"></a-asset-item>
+            <a-asset-item id="minigun" response-type="arraybuffer" src="/assets/Minigun.gltf"></a-asset-item>
+            <a-asset-item id="table" response-type="arraybuffer" src="/assets/Table%20with%20split%20legs.gltf"></a-asset-item>
+        </a-assets>
+        <a-entity gltf-model="/assets/JUICE%20BOX.gltf" position="1.722 1.564 -10.102" scale="0.15 0.15 0.15"></a-entity>
+        <a-entity gltf-model="/assets/Red%20Apple.gltf" position="0.61 1.16 -9.186" scale="0.5 0.5 0.5"></a-entity>
+        <a-entity gltf-model="/assets/Minigun.gltf" position="3.553 1.307 -8.027" scale="0.5 0.5 0.5" rotation="0 -90 0"></a-entity>
+        <a-entity gltf-model="/assets/Table%20with%20split%20legs.gltf" position="2.982 0.611 -9.774" rotation="0 95 0"></a-entity>
+        <a-entity gltf-model="/assets/Forest%20Tree.gltf" position="-3.558 2.409 -8.336"></a-entity>
     </a-scene>
-  </body>
+</body>
+
 </html>
