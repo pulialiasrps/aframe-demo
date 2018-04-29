@@ -6,7 +6,10 @@
        AFRAME.registerComponent('log-color', {
           init: function () {
             var el = this.el;
+            var data = this.data;
             el.addEventListener('click', function () {
+              console.dir(el);
+              el.getAttribute('material').color
               console.log('Clicked on ' + el.id);
             });
           }
@@ -22,7 +25,7 @@
             <a-asset-item src="/assets/Minigun.gltf"></a-asset-item>
             <a-asset-item src="/assets/Table%20with%20split%20legs.gltf"></a-asset-item>
         </a-assets>
-        <a-entity gltf-model="/assets/JUICE%20BOX.gltf" position="1.722 1.649 -10.102" scale="0.15 0.15 0.15" id="juiceBox" log-color="">
+        <a-entity gltf-model="/assets/JUICE%20BOX.gltf" position="1.722 1.649 -10.102" scale="0.15 0.15 0.15" id="juiceBox" log-color="{edgeThickness: 1.0, pulsePeriod: 0, color:blue}">
         </a-entity>
         <a-entity gltf-model="/assets/Red%20Apple.gltf" position="0.61 1.16 -9.186" scale="0.5 0.5 0.5" id="apple" log-color="">
         </a-entity>
